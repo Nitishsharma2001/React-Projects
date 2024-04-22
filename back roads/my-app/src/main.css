@@ -1,0 +1,38 @@
+.content{
+    padding-top: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.content h1{
+    font-size: 50px;
+    font-weight: 800;
+    color: white;
+}
+.content p{
+    font-size: 20px;
+    color: white;
+}
+.bt-et{
+    font-size: 30px;
+    /* font-weight: 700; */
+    padding: 10px;
+    margin: 10px;
+    color: #2caeba;
+    
+    /* border: 1px solid black; */
+    /* border-radius: 7px; */
+}
+.bt-et:hover{
+    background: transparent;
+    border: 1px solid white;
+}
+.content{
+    background: linear-gradient(rgb(44, 174, 186, 0.7), rgba(0, 0, 0, 0.7)), url(assets/background.jpeg) center / cover no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 63vh;
+}

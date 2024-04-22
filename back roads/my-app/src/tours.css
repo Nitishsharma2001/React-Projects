@@ -1,0 +1,88 @@
+.tourscontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    margin: 15px;
+    gap: 40px;
+}
+
+.tourscard {
+    width: 25%;
+    background-color: #f1f5f8;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: all 500ms ease-in-out;
+    /* padding: 10px;
+    margin: 10px; */
+}
+
+.tourscard:hover {
+    cursor: pointer;
+    box-shadow: 0px 12px 30px 0px rgba(0, 0, 0, 0.2);
+    transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
+    transform: translate3d(0px, -10px, 0px);
+}
+
+.toursimg {
+    height: 37vh;
+    width: 100%;
+    object-fit: cover;
+    /* position: absolute; */
+
+}
+
+.theader {
+    position: relative;
+}
+
+.tourdes {
+    color: #617d98;
+}
+
+.tourcontent {
+    padding: 5px;
+    margin: 5px;
+}
+
+.tourfooter {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+}
+
+.tourfooter p {
+    color: #2ba9b5;
+}
+
+.tourcontent h4 {
+    font-size: 20px;
+    color: #102a42;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tourheading {
+    color: #617d98;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.tourheading span {
+    color: #2caeba;
+}
+
+.toursdate {
+    position: absolute;
+    z-index: 10;
+    right: 0;
+    bottom: 0;
+    padding: 3px;
+    /* margin: 3px; */
+    background-color: #88ebf2;
+    color: #044e53;
+}

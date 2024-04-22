@@ -1,0 +1,74 @@
+.about h2 {
+    color: black;
+    font-size: 50px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.about span {
+    color: cyan;
+}
+
+.btn-about {
+    padding: 10px;
+    margin: 10px;
+    background-color: #40acb7;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+}
+.btn-container{
+    padding: 10px;
+    margin: 10px;
+}
+
+.btn-about:hover {
+    background-color: #85edf4;
+    color: #044e53;
+}
+
+.about {
+    /* width: 70vw; */
+    align-items: center;
+}
+
+@media screen and (min-width: 992px) {
+    .about-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 2rem;
+        /* justify-content: center; */
+        /* padding: 20px;
+    margin: 20px; */
+
+
+        /* align-items: center; */
+    }
+    .section-center{
+        width: 95vw;
+    }
+}
+.section-center{
+    margin: 0 auto;
+    max-width: 1170px
+}
+
+.about-content div img {
+    height: 55vh;
+    width: 35vw;
+}
+.para-content{
+    margin: 10px;
+    padding: 10px;
+    color: #617d98;
+}
+.about-heading{
+    padding: 10px;
+    margin: 10px;
+    font-size: 35px;
+
+}

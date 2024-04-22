@@ -1,0 +1,52 @@
+.our {
+    color: #617d98;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.services {
+    color: #2caeba;
+}
+
+.Ourservices {
+    margin-top: 20vh;
+    background-color: #f1f5f8;
+}
+
+.icons {
+    color: #044e53;
+    font-size: 40px;
+}
+
+.icon-container {
+    background-color: #2caeba;
+    padding: 10px;
+    display: inline-block;
+}
+.card{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-align: left;
+    /* padding-left: 200px; */
+    
+}
+.services-container{
+
+    margin-top: 150px;
+    display: grid;
+    padding-left: 20px;
+    margin-left: 20px;
+    /* max-width: 900px;  */
+    grid-template-columns: repeat(auto-fit, minmax(30%, 1fr)); 
+    justify-content: center; 
+    gap: 20px; 
+    text-align: center;
+}
+.parent{
+   padding: 0px;
+   margin: 80px;
+}

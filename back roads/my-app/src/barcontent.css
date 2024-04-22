@@ -1,0 +1,15 @@
+.bar ul{
+    display: flex;
+    gap: 10px;
+}
+.bar ul li{
+    list-style: none;
+    /* color: ; */
+    padding: 5px;
+    margin: 5px;
+    letter-spacing: 0.25rem;
+}
+.bar ul li:hover{
+    color: #279ca6;
+    cursor: pointer;
+}
